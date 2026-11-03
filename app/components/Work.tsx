@@ -65,7 +65,7 @@ export default function Work() {
       title: "Telco Customer Churn Engine",
       desc: "A containerized Python backend microservice integrating automated OpenAI reasoning pipelines to dynamically generate personalized retention actions from predictive model scores.",
       tags: ["Backend", "Python", "FastAPI", "Docker", "MLOps"],
-      image: "/projects/telco.jfif",
+      image: "/projects/telco.png",
       links: [
         { label: "DagsHub Repository", url: "https://dagshub.com/sashindeemantha/churn-mlops-project" }
       ]
