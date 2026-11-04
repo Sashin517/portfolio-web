@@ -7,7 +7,6 @@ import { ArrowRight, Download } from "lucide-react";
 export default function Hero() {
   const glowRef = useRef<HTMLDivElement>(null);
   const [showCvMenu, setShowCvMenu] = useState(false);
-  const year = new Date().getFullYear(); // Dynamically get the current year
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -40,7 +39,7 @@ export default function Hero() {
       
       {/* Bottom Left Copyright */}
       <div className="absolute bottom-10 left-12 text-sm font-medium text-gray-700 z-20">
-        Copyright {year}
+        Copyright 2026
       </div>
 
       {/* Bottom Right Decorative SVGs */}
